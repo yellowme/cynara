@@ -1,42 +1,23 @@
 # Cynara
-## Attention
 
-## Installation
+To start your Phoenix server:
 
+  * Install dependencies with `mix deps.get`
+  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  * Install Node.js dependencies with `cd assets && npm install`
+  * Start Phoenix endpoint with `mix phx.server`
 
-### Elixir
- You need the erlang virtual machine
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-#### Mac
+Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
 
-brew install erlang
+## Learn more
 
-#### Linux
-
-```
-$ wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
-$ sudo apt-get update
-$ sudo apt-get install esl-erlang
-```
- curl -sSL https://raw.githubusercontent.com/taylor/kiex/master/install | bash -s
-
- kiex install 1.9.0
-
- Add in your ~/.basrc or ~/.zshrc or ~/.bash_profile,
-
- kiex 1.9.0
-
- [reference] (https://github.com/taylor/kiex)
-
-  mix local.hex
-
-### Phoenix
-  mix archive.install hex phx_new 1.4.9
-
-
-## Changelog
-
-All changes are located in [the changelog file](CHANGELOG.md) with contribution notes
+  * Official website: http://www.phoenixframework.org/
+  * Guides: http://phoenixframework.org/docs/overview
+  * Docs: https://hexdocs.pm/phoenix
+  * Mailing list: http://groups.google.com/group/phoenix-talk
+  * Source: https://github.com/phoenixframework/phoenix
 
 ## Contributing
 
