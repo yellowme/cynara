@@ -51,8 +51,8 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :cynara, Cynara.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "daniel",
+  password: "",
   database: "cynara_dev",
   hostname: "localhost",
   pool_size: 10
